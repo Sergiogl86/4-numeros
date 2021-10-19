@@ -34,7 +34,9 @@ function App() {
       <Button name="<<" funcion={restarNumero} />
       <ListadoNumeros listado={listado} funcion={valorGrande} />
       <Button name=">>" funcion={sumarNumero} />
-      <ValorGrande state={stateValorGrande} num={numero} />
+      <div>
+        <ValorGrande state={stateValorGrande} num={numero} />
+      </div>
     </div>
   );
 }

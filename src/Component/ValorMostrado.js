@@ -5,7 +5,6 @@ function ValorMostrado({ valor, funcion }) {
   const valorid = { id: valor };
   return (
     <input
-      key={valorid}
       onClick={() => funcion(valor)}
       className="input"
       value={valor}
